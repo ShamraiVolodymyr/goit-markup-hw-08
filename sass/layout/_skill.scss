@@ -1,0 +1,38 @@
+.skill-list {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-list__item + .skill-list__item {
+  width: 270px;
+  height: 120px;
+  margin-left: 30px;
+}
+
+.skill-list__pre-title {
+  width: 270px;
+  height: 120px;
+}
+
+.skill-list__pre-title + .skill-list__pre-title {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.skill-list__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  margin-bottom: 10px;
+}
+
+.skill-list__post-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  width: 270px;
+}
