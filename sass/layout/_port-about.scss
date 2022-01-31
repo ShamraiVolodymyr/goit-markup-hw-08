@@ -1,78 +1,78 @@
-.port-about__text {
-  visibility: hidden;
-}
-.examples__list {
-  display: flex;
-  flex-wrap: wrap;
+// .port-about__text {
+//   visibility: hidden;
+// }
+// .examples__list {
+//   display: flex;
+//   flex-wrap: wrap;
 
-  margin-left: -30px;
-  margin-top: -30px;
-}
+//   margin-left: -30px;
+//   margin-top: -30px;
+// }
 
-.examples__item {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// .examples__item {
+//   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  flex-basis: calc(100% / 3 - 30px);
-  min-width: 370px;
+//   flex-basis: calc(100% / 3 - 30px);
+//   min-width: 370px;
 
-  margin-left: 30px;
-  margin-top: 30px;
-  box-sizing: border-box;
-  border: 1px solid #eeeeee;
-  &:hover,
-  &:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-    cursor: pointer;
-  }
-}
+//   margin-left: 30px;
+//   margin-top: 30px;
+//   box-sizing: border-box;
+//   border: 1px solid #eeeeee;
+//   &:hover,
+//   &:focus {
+//     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//       1px 4px 6px rgba(0, 0, 0, 0.16);
+//     cursor: pointer;
+//   }
+// }
 
-.activity {
-  display: block;
-  text-decoration: none;
-}
+// .activity {
+//   display: block;
+//   text-decoration: none;
+// }
 
-.examples__thumb {
-  position: relative;
-  overflow: hidden;
-}
+// .examples__thumb {
+//   position: relative;
+//   overflow: hidden;
+// }
 
-.examples__thumb--title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(33, 150, 243, 0.9);
-  padding: 63px 24px;
-  color: #ffffff;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.5;
-  height: 100%;
+// .examples__thumb--title {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   background-color: rgba(33, 150, 243, 0.9);
+//   padding: 63px 24px;
+//   color: #ffffff;
+//   font-weight: normal;
+//   font-size: 18px;
+//   line-height: 1.5;
+//   height: 100%;
 
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .examples__item:hover & {
-    transform: translateY(0%);
-  }
-}
+//   transform: translateY(100%);
+//   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .examples__item:hover & {
+//     transform: translateY(0%);
+//   }
+// }
 
-.card-content {
-  padding: 20px 24px;
-}
+// .card-content {
+//   padding: 20px 24px;
+// }
 
-.examples__text {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--second-text-color);
+// .examples__text {
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 2;
+//   letter-spacing: 0.06em;
+//   color: var(--second-text-color);
 
-  padding-bottom: 4px;
-}
-.name-work {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-}
+//   padding-bottom: 4px;
+// }
+// .name-work {
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 1.87;
+//   letter-spacing: 0.03em;
+//   color: var(--main-text-color);
+// }
