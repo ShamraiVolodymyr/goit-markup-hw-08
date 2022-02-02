@@ -1,61 +1,61 @@
-// .about {
-//   padding-top: 0;
-// }
+.about {
+  padding-top: 0;
+}
 
-// .about-title {
-//   display: block;
-//   text-align: center;
-//   align-items: center;
-//   font-weight: 700;
-//   font-size: 36px;
-//   line-height: 1.16;
-//   letter-spacing: 0.03em;
-//   color: var(--second-text-color);
+.about-title {
+  display: block;
+  text-align: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 
-//   margin-bottom: 50px;
-// }
+  margin-bottom: 50px;
+}
 
-// .about-title__about-list {
-//   display: flex;
-//   justify-content: center;
-// }
+.about-title__about-list {
+  display: flex;
+  justify-content: center;
+}
 
-// .about-list__item {
-//   display: block;
-//   position: relative;
-// }
+.about-list__item {
+  display: block;
+  position: relative;
+}
 
-// .about-list__item + .about-list__item {
-//   min-width: 370px;
-//   margin-left: 30px;
-// }
+.about-list__item + .about-list__item {
+  min-width: 370px;
+  margin-left: 30px;
+}
 
-// .about-list__position::after {
-//   position: absolute;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 100%;
-//   height: 70px;
-//   color: var(--main-title-color);
-//   background-color: rgba(47, 48, 58, 0.8);
-//   bottom: 3px;
-//   right: 0px;
+.about-list__position::after {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  color: var(--main-title-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 3px;
+  right: 0px;
 
-//   font-style: normal;
-//   font-weight: bold;
-//   font-size: 14px;
-//   line-height: 1.14;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-// }
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
-// .about-list__desc::after {
-//   content: "ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ";
-// }
-// .about-list__mob::after {
-//   content: "МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ";
-// }
-// .about-list__disain::after {
-//   content: "ДИЗАЙНЕРСКИЕ РЕШЕНИЯ";
-// }
+.about-list__desc::after {
+  content: "ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ";
+}
+.about-list__mob::after {
+  content: "МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ";
+}
+.about-list__disain::after {
+  content: "ДИЗАЙНЕРСКИЕ РЕШЕНИЯ";
+}
