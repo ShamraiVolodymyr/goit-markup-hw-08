@@ -8,8 +8,18 @@
 }
 
 .footer-container {
-  display: flex;
-  align-items: baseline;
+  @include tel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @include tablet {
+  }
+
+  @include desk {
+  }
 }
 
 .footer__logo {
